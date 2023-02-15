@@ -12,6 +12,6 @@ m = int(input("Введите длину второго списка: "))
 list_2 = {input(f'число {i+1}: ') for i in range(m)}
 
 list_3 = list_1.intersection(list_2)
-result = list(list_3)
-result.sort()
+result = sorted(list_3)
+
 print(*result)
